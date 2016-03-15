@@ -1,0 +1,458 @@
+footer{
+    height: 50px;
+    position: relative;
+}
+.wrapper  p{
+    margin: 0;
+}
+.columnists{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+.listColumnists{
+    margin: 0;
+    padding: 0;
+    padding-left: 100px;
+}
+
+
+.listColumnists li{
+    display: inline-block;
+    margin: 10px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 250px;
+    height: 40px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important;
+    padding: 10px;
+}
+
+
+.listColumnists img{
+    width: 40px;
+    height: 40px;
+    display: inline;
+
+}
+
+
+.listColumnists a{
+    vertical-align: 140%;
+}
+.layout{
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important;
+    background-color: #fff;
+    position: relative;
+}
+
+header a img{
+    width: 50px;
+    height: 50px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    background-color: #f2f2f2;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important;
+}
+
+.menu  {
+    display: inline-block;
+    width: 400px;
+    margin: 0;
+    vertical-align: -150%;
+}
+
+
+
+.menu li{
+    padding: 5px;
+    margin-left: 5px;
+    display: inline;
+    background-color: #fff;
+    box-shadow: 0 0 7px #888;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+.menu li:hover{
+    background-color: #3399ff;
+}
+
+
+.menu li a{
+    color: #000;
+    text-decoration: none;
+}
+.menu li a:hover{
+    transition-duration: 0.5s;
+    color: #fff;
+}
+
+#register{
+  width: 500px;
+  height: 600px;
+}
+
+
+.columnists li:hover {
+    transition-duration: 1000ms;
+    transform: scale(1.5, 1.5);
+
+}
+
+#logo{
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+}
+#logo p{
+    margin: 0 auto;
+    display: inline;
+    vertical-align: 50%;
+    font-size: 30px;
+}
+
+#loggedIn{
+    width: 200px;
+    display: inline-block;
+    float: right;
+    margin-top: 70px;
+    overflow: hidden;
+
+}
+
+#loggedIn form{
+    display: inline;
+    width: 40%;
+    padding-left: 5px;
+}
+#loggedIn input{
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #888;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+#loggedIn input:hover{
+    background-color: #3399ff;
+    color: #ffffff;
+}
+
+#loggedIn span{
+    display: inline;
+    width: 60%;
+
+}
+
+.columnists>a{
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #888;
+    font-weight: bold;
+    transition-duration: 1s;
+    text-decoration: none;
+    color: black;
+
+}
+
+.columnists li {
+    overflow: hidden;
+
+}
+
+/*.columnists li>a{*/
+    /*display:block;*/
+    /*position:absolute;*/
+    /*height: auto;*/
+    /*max-width: 600px;*/
+    /*border:1px solid #0cf;*/
+    /*background-color:#cff; color:#000;*/
+    /*overflow: visible;*/
+    /*white-space: normal;*/
+    /*text-align: center*/
+/*}*/
+
+.columnists>a:hover{
+    background-color: #3399ff;
+    color: #ffffff;
+}
+div#login{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    padding: 40px;
+}
+
+#login form{
+    width: 300px;
+    height: 150px;
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 30px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important;
+
+}
+
+#login form div{
+    margin-top: 20px;
+}
+
+#login form div input{
+    float: right;
+}
+
+#login form>input{
+    margin-top: 50px;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #888;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+#login form>input:hover{
+    background-color: #3399ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+#login form>input:focus{
+    border: 2px solid lightblue;
+}
+div#register {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 30px;
+}
+
+#register form{
+    width: 250px;
+    height: 200px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important;
+}
+
+#register form div{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#register form div input:focus{
+    border: 2px solid lightblue;
+
+}
+
+#register form>input{
+    margin-top: 30px;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #888;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+#register form>input:hover{
+    cursor: pointer;
+    background-color: #3399ff;
+    color: #ffffff;
+}
+
+.addColumnist{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: #ffffff;
+}
+footer div{
+    margin-left: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.listOp ul{
+    margin-top: 0;
+    padding-top: 20px;
+
+}
+.listOp li{
+    list-style-type: none;
+}
+.listOp div{
+    width: 700px;
+    height: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important;
+}
+.listOp div:hover{
+    transition-duration: 1000ms;
+    transform: skew(2deg, 2deg);
+}
+
+.listOp>a{
+    margin-left: 10px;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #888;
+    font-weight: bold;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+.listOp>a:hover{
+    background-color: #3399ff;
+    color: #ffffff;
+}
+
+.opinion{
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+    height: 650px;
+}
+
+.opinion div{
+    background-color: #ffffff;
+    padding: 20px;
+    width: 600px;
+    height: 550px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important;
+}
+.opinion div p{
+    overflow-x: hidden;
+    overflow-y: visible;
+    word-wrap: break-word;
+}
+.opinion a{
+    margin-top: 10px;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #888;
+    font-weight: bold;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+.opinion a:hover{
+    background-color: #3399ff;
+    color: #ffffff;
+}
+.addColumnist{
+    margin: auto;
+    padding-top: 20px;
+    background-color: #f2f2f2;;
+}
+.addColumnist form{
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important;
+    background-color: #fff;
+}
+.addColumnist form div{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.addColumnist form>input{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #888;
+    font-weight: bold;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+.addColumnist form>input:hover{
+    background-color: #3399ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+#imgDiv{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#blah{
+    width: 100%;
+    height: 100%;
+}
+
+#addOpinion{
+    padding-top: 20px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+#addOpinion form{
+    padding: 30px;
+    width: 400px;
+    height: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important;
+    font-weight: bold;
+}
+
+#title{
+    width: 370px;
+}
+
+#AddOp{
+    padding: 5px;
+    margin-left: 100px;
+    width: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #888;
+    font-weight: bold;
+    transition-duration: 1s;
+    text-decoration: none;
+
+}
+
+#AddOp:hover{
+    background-color: #3399ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#addOpinion form input, textarea{
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+}
+#message{
+    width: auto;
+}
+#message p{
+    padding: 5px;
+    color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important;
+    font-weight: bold;
+
+}
+
+#pLog{
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    margin: 0;
+    text-shadow: 0px 0px 10px rgba(150, 150, 150, 1);
+}
+
+#addOpinion select{
+    width: 200px;
+}
+
